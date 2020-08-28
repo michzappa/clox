@@ -47,26 +47,30 @@ chunk.h
 /home/michael/CLionProjects/clox/chunk.h
 debug.h
 /home/michael/CLionProjects/clox/debug.h
-
-/home/michael/CLionProjects/clox/memory.c
-stdlib.h
--
-memory.h
-/home/michael/CLionProjects/clox/memory.h
+vm.h
+/home/michael/CLionProjects/clox/vm.h
 
 /home/michael/CLionProjects/clox/memory.h
 common.h
 /home/michael/CLionProjects/clox/common.h
 
-/home/michael/CLionProjects/clox/value.c
+/home/michael/CLionProjects/clox/value.h
+common.h
+/home/michael/CLionProjects/clox/common.h
+
+/home/michael/CLionProjects/clox/vm.c
 stdio.h
 -
-memory.h
-/home/michael/CLionProjects/clox/memory.h
-value.h
-/home/michael/CLionProjects/clox/value.h
-
-/home/michael/CLionProjects/clox/value.h
 common.h
 /home/michael/CLionProjects/clox/common.h
+debug.h
+/home/michael/CLionProjects/clox/debug.h
+vm.h
+/home/michael/CLionProjects/clox/vm.h
+
+/home/michael/CLionProjects/clox/vm.h
+chunk.h
+/home/michael/CLionProjects/clox/chunk.h
+value.h
+/home/michael/CLionProjects/clox/value.h
 

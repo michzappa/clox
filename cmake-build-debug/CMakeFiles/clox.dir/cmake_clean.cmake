@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/clox.dir/main.c.o"
   "CMakeFiles/clox.dir/memory.c.o"
   "CMakeFiles/clox.dir/value.c.o"
+  "CMakeFiles/clox.dir/vm.c.o"
   "clox"
   "clox.pdb"
 )

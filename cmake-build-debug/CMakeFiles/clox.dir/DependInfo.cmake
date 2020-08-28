@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/michael/CLionProjects/clox/main.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/main.c.o"
   "/home/michael/CLionProjects/clox/memory.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/memory.c.o"
   "/home/michael/CLionProjects/clox/value.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/value.c.o"
+  "/home/michael/CLionProjects/clox/vm.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/vm.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

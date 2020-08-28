@@ -103,6 +103,12 @@
 		<Unit filename="/home/michael/CLionProjects/clox/value.h">
 			<Option target="clox"/>
 		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/vm.c">
+			<Option target="clox"/>
+		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/vm.h">
+			<Option target="clox"/>
+		</Unit>
 		<Unit filename="/home/michael/CLionProjects/clox/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
