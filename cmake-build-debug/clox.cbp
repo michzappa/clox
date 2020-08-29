@@ -82,6 +82,12 @@
 		<Unit filename="/home/michael/CLionProjects/clox/chunk.h">
 			<Option target="clox"/>
 		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/compiler.c">
+			<Option target="clox"/>
+		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/compiler.h">
+			<Option target="clox"/>
+		</Unit>
 		<Unit filename="/home/michael/CLionProjects/clox/debug.c">
 			<Option target="clox"/>
 		</Unit>
@@ -95,6 +101,12 @@
 			<Option target="clox"/>
 		</Unit>
 		<Unit filename="/home/michael/CLionProjects/clox/memory.h">
+			<Option target="clox"/>
+		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/scanner.c">
+			<Option target="clox"/>
+		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/scanner.h">
 			<Option target="clox"/>
 		</Unit>
 		<Unit filename="/home/michael/CLionProjects/clox/value.c">

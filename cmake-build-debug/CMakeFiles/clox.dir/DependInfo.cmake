@@ -5,9 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/michael/CLionProjects/clox/chunk.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/chunk.c.o"
+  "/home/michael/CLionProjects/clox/compiler.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/compiler.c.o"
   "/home/michael/CLionProjects/clox/debug.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/debug.c.o"
   "/home/michael/CLionProjects/clox/main.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/main.c.o"
   "/home/michael/CLionProjects/clox/memory.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/memory.c.o"
+  "/home/michael/CLionProjects/clox/scanner.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/scanner.c.o"
   "/home/michael/CLionProjects/clox/value.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/value.c.o"
   "/home/michael/CLionProjects/clox/vm.c" "/home/michael/CLionProjects/clox/cmake-build-debug/CMakeFiles/clox.dir/vm.c.o"
   )

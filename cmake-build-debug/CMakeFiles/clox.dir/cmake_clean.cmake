@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clox.dir/chunk.c.o"
+  "CMakeFiles/clox.dir/compiler.c.o"
   "CMakeFiles/clox.dir/debug.c.o"
   "CMakeFiles/clox.dir/main.c.o"
   "CMakeFiles/clox.dir/memory.c.o"
+  "CMakeFiles/clox.dir/scanner.c.o"
   "CMakeFiles/clox.dir/value.c.o"
   "CMakeFiles/clox.dir/vm.c.o"
   "clox"
