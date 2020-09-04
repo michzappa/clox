@@ -103,6 +103,12 @@
 		<Unit filename="/home/michael/CLionProjects/clox/memory.h">
 			<Option target="clox"/>
 		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/object.c">
+			<Option target="clox"/>
+		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/object.h">
+			<Option target="clox"/>
+		</Unit>
 		<Unit filename="/home/michael/CLionProjects/clox/scanner.c">
 			<Option target="clox"/>
 		</Unit>

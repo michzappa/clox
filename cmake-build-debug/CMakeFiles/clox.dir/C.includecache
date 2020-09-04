@@ -43,16 +43,10 @@ debug.h
 /home/michael/CLionProjects/clox/debug.h
 
 /home/michael/CLionProjects/clox/compiler.h
+object.h
+/home/michael/CLionProjects/clox/object.h
 vm.h
 /home/michael/CLionProjects/clox/vm.h
-
-/home/michael/CLionProjects/clox/debug.c
-stdio.h
--
-debug.h
-/home/michael/CLionProjects/clox/debug.h
-value.h
-/home/michael/CLionProjects/clox/value.h
 
 /home/michael/CLionProjects/clox/debug.h
 chunk.h
@@ -74,19 +68,53 @@ debug.h
 vm.h
 /home/michael/CLionProjects/clox/vm.h
 
+/home/michael/CLionProjects/clox/memory.c
+stdlib.h
+-
+memory.h
+/home/michael/CLionProjects/clox/memory.h
+object.h
+/home/michael/CLionProjects/clox/object.h
+vm.h
+/home/michael/CLionProjects/clox/vm.h
+
 /home/michael/CLionProjects/clox/memory.h
 common.h
 /home/michael/CLionProjects/clox/common.h
+
+/home/michael/CLionProjects/clox/object.c
+stdio.h
+-
+string.h
+-
+memory.h
+/home/michael/CLionProjects/clox/memory.h
+object.h
+/home/michael/CLionProjects/clox/object.h
+value.h
+/home/michael/CLionProjects/clox/value.h
+vm.h
+/home/michael/CLionProjects/clox/vm.h
+
+/home/michael/CLionProjects/clox/object.h
+common.h
+/home/michael/CLionProjects/clox/common.h
+value.h
+/home/michael/CLionProjects/clox/value.h
 
 /home/michael/CLionProjects/clox/scanner.h
 
 /home/michael/CLionProjects/clox/value.c
 stdio.h
 -
+object.h
+/home/michael/CLionProjects/clox/object.h
 memory.h
 /home/michael/CLionProjects/clox/memory.h
 value.h
 /home/michael/CLionProjects/clox/value.h
+string.h
+/home/michael/CLionProjects/clox/string.h
 
 /home/michael/CLionProjects/clox/value.h
 common.h
@@ -97,12 +125,18 @@ stdarg.h
 -
 stdio.h
 -
+string.h
+/home/michael/CLionProjects/clox/string.h
 common.h
 /home/michael/CLionProjects/clox/common.h
 compiler.h
 /home/michael/CLionProjects/clox/compiler.h
 debug.h
 /home/michael/CLionProjects/clox/debug.h
+object.h
+/home/michael/CLionProjects/clox/object.h
+memory.h
+/home/michael/CLionProjects/clox/memory.h
 vm.h
 /home/michael/CLionProjects/clox/vm.h
 

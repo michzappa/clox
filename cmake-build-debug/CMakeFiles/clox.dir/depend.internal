@@ -13,6 +13,7 @@ CMakeFiles/clox.dir/compiler.c.o
  /home/michael/CLionProjects/clox/compiler.c
  /home/michael/CLionProjects/clox/compiler.h
  /home/michael/CLionProjects/clox/debug.h
+ /home/michael/CLionProjects/clox/object.h
  /home/michael/CLionProjects/clox/scanner.h
  /home/michael/CLionProjects/clox/value.h
  /home/michael/CLionProjects/clox/vm.h
@@ -30,9 +31,21 @@ CMakeFiles/clox.dir/main.c.o
  /home/michael/CLionProjects/clox/value.h
  /home/michael/CLionProjects/clox/vm.h
 CMakeFiles/clox.dir/memory.c.o
+ /home/michael/CLionProjects/clox/chunk.h
  /home/michael/CLionProjects/clox/common.h
  /home/michael/CLionProjects/clox/memory.c
  /home/michael/CLionProjects/clox/memory.h
+ /home/michael/CLionProjects/clox/object.h
+ /home/michael/CLionProjects/clox/value.h
+ /home/michael/CLionProjects/clox/vm.h
+CMakeFiles/clox.dir/object.c.o
+ /home/michael/CLionProjects/clox/chunk.h
+ /home/michael/CLionProjects/clox/common.h
+ /home/michael/CLionProjects/clox/memory.h
+ /home/michael/CLionProjects/clox/object.c
+ /home/michael/CLionProjects/clox/object.h
+ /home/michael/CLionProjects/clox/value.h
+ /home/michael/CLionProjects/clox/vm.h
 CMakeFiles/clox.dir/scanner.c.o
  /home/michael/CLionProjects/clox/common.h
  /home/michael/CLionProjects/clox/scanner.c
@@ -40,6 +53,7 @@ CMakeFiles/clox.dir/scanner.c.o
 CMakeFiles/clox.dir/value.c.o
  /home/michael/CLionProjects/clox/common.h
  /home/michael/CLionProjects/clox/memory.h
+ /home/michael/CLionProjects/clox/object.h
  /home/michael/CLionProjects/clox/value.c
  /home/michael/CLionProjects/clox/value.h
 CMakeFiles/clox.dir/vm.c.o
@@ -47,6 +61,8 @@ CMakeFiles/clox.dir/vm.c.o
  /home/michael/CLionProjects/clox/common.h
  /home/michael/CLionProjects/clox/compiler.h
  /home/michael/CLionProjects/clox/debug.h
+ /home/michael/CLionProjects/clox/memory.h
+ /home/michael/CLionProjects/clox/object.h
  /home/michael/CLionProjects/clox/value.h
  /home/michael/CLionProjects/clox/vm.c
  /home/michael/CLionProjects/clox/vm.h

@@ -278,6 +278,33 @@ memory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/memory.c.s
 .PHONY : memory.c.s
 
+object.o: object.c.o
+
+.PHONY : object.o
+
+# target to build an object file
+object.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/object.c.o
+.PHONY : object.c.o
+
+object.i: object.c.i
+
+.PHONY : object.i
+
+# target to preprocess a source file
+object.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/object.c.i
+.PHONY : object.c.i
+
+object.s: object.c.s
+
+.PHONY : object.s
+
+# target to generate assembly for a file
+object.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/object.c.s
+.PHONY : object.c.s
+
 scanner.o: scanner.c.o
 
 .PHONY : scanner.o
@@ -383,6 +410,9 @@ help:
 	@echo "... memory.o"
 	@echo "... memory.i"
 	@echo "... memory.s"
+	@echo "... object.o"
+	@echo "... object.i"
+	@echo "... object.s"
 	@echo "... scanner.o"
 	@echo "... scanner.i"
 	@echo "... scanner.s"
