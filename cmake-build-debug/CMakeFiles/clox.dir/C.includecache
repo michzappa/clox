@@ -74,25 +74,9 @@ debug.h
 vm.h
 /home/michael/CLionProjects/clox/vm.h
 
-/home/michael/CLionProjects/clox/memory.c
-stdlib.h
--
-memory.h
-/home/michael/CLionProjects/clox/memory.h
-
 /home/michael/CLionProjects/clox/memory.h
 common.h
 /home/michael/CLionProjects/clox/common.h
-
-/home/michael/CLionProjects/clox/scanner.c
-stdio.h
--
-string.h
--
-common.h
-/home/michael/CLionProjects/clox/common.h
-scanner.h
-/home/michael/CLionProjects/clox/scanner.h
 
 /home/michael/CLionProjects/clox/scanner.h
 
@@ -109,6 +93,8 @@ common.h
 /home/michael/CLionProjects/clox/common.h
 
 /home/michael/CLionProjects/clox/vm.c
+stdarg.h
+-
 stdio.h
 -
 common.h
