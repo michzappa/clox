@@ -14,6 +14,7 @@ CMakeFiles/clox.dir/compiler.c.o: ../compiler.h
 CMakeFiles/clox.dir/compiler.c.o: ../debug.h
 CMakeFiles/clox.dir/compiler.c.o: ../object.h
 CMakeFiles/clox.dir/compiler.c.o: ../scanner.h
+CMakeFiles/clox.dir/compiler.c.o: ../table.h
 CMakeFiles/clox.dir/compiler.c.o: ../value.h
 CMakeFiles/clox.dir/compiler.c.o: ../vm.h
 
@@ -27,6 +28,7 @@ CMakeFiles/clox.dir/main.c.o: ../chunk.h
 CMakeFiles/clox.dir/main.c.o: ../common.h
 CMakeFiles/clox.dir/main.c.o: ../debug.h
 CMakeFiles/clox.dir/main.c.o: ../main.c
+CMakeFiles/clox.dir/main.c.o: ../table.h
 CMakeFiles/clox.dir/main.c.o: ../value.h
 CMakeFiles/clox.dir/main.c.o: ../vm.h
 
@@ -35,6 +37,7 @@ CMakeFiles/clox.dir/memory.c.o: ../common.h
 CMakeFiles/clox.dir/memory.c.o: ../memory.c
 CMakeFiles/clox.dir/memory.c.o: ../memory.h
 CMakeFiles/clox.dir/memory.c.o: ../object.h
+CMakeFiles/clox.dir/memory.c.o: ../table.h
 CMakeFiles/clox.dir/memory.c.o: ../value.h
 CMakeFiles/clox.dir/memory.c.o: ../vm.h
 
@@ -43,12 +46,20 @@ CMakeFiles/clox.dir/object.c.o: ../common.h
 CMakeFiles/clox.dir/object.c.o: ../memory.h
 CMakeFiles/clox.dir/object.c.o: ../object.c
 CMakeFiles/clox.dir/object.c.o: ../object.h
+CMakeFiles/clox.dir/object.c.o: ../table.h
 CMakeFiles/clox.dir/object.c.o: ../value.h
 CMakeFiles/clox.dir/object.c.o: ../vm.h
 
 CMakeFiles/clox.dir/scanner.c.o: ../common.h
 CMakeFiles/clox.dir/scanner.c.o: ../scanner.c
 CMakeFiles/clox.dir/scanner.c.o: ../scanner.h
+
+CMakeFiles/clox.dir/table.c.o: ../common.h
+CMakeFiles/clox.dir/table.c.o: ../memory.h
+CMakeFiles/clox.dir/table.c.o: ../object.h
+CMakeFiles/clox.dir/table.c.o: ../table.c
+CMakeFiles/clox.dir/table.c.o: ../table.h
+CMakeFiles/clox.dir/table.c.o: ../value.h
 
 CMakeFiles/clox.dir/value.c.o: ../common.h
 CMakeFiles/clox.dir/value.c.o: ../memory.h
@@ -62,6 +73,7 @@ CMakeFiles/clox.dir/vm.c.o: ../compiler.h
 CMakeFiles/clox.dir/vm.c.o: ../debug.h
 CMakeFiles/clox.dir/vm.c.o: ../memory.h
 CMakeFiles/clox.dir/vm.c.o: ../object.h
+CMakeFiles/clox.dir/vm.c.o: ../table.h
 CMakeFiles/clox.dir/vm.c.o: ../value.h
 CMakeFiles/clox.dir/vm.c.o: ../vm.c
 CMakeFiles/clox.dir/vm.c.o: ../vm.h

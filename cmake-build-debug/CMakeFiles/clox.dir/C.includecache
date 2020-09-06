@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/michael/CLionProjects/clox/chunk.c
-stdlib.h
--
-chunk.h
-/home/michael/CLionProjects/clox/chunk.h
-memory.h
-/home/michael/CLionProjects/clox/memory.h
-
 /home/michael/CLionProjects/clox/chunk.h
 common.h
 /home/michael/CLionProjects/clox/common.h
@@ -93,6 +85,8 @@ object.h
 /home/michael/CLionProjects/clox/object.h
 value.h
 /home/michael/CLionProjects/clox/value.h
+table.h
+/home/michael/CLionProjects/clox/table.h
 vm.h
 /home/michael/CLionProjects/clox/vm.h
 
@@ -103,6 +97,26 @@ value.h
 /home/michael/CLionProjects/clox/value.h
 
 /home/michael/CLionProjects/clox/scanner.h
+
+/home/michael/CLionProjects/clox/table.c
+stdlib.h
+-
+string.h
+-
+memory.h
+/home/michael/CLionProjects/clox/memory.h
+object.h
+/home/michael/CLionProjects/clox/object.h
+table.h
+/home/michael/CLionProjects/clox/table.h
+value.h
+/home/michael/CLionProjects/clox/value.h
+
+/home/michael/CLionProjects/clox/table.h
+common.h
+/home/michael/CLionProjects/clox/common.h
+value.h
+/home/michael/CLionProjects/clox/value.h
 
 /home/michael/CLionProjects/clox/value.c
 stdio.h
@@ -143,6 +157,8 @@ vm.h
 /home/michael/CLionProjects/clox/vm.h
 chunk.h
 /home/michael/CLionProjects/clox/chunk.h
+table.h
+/home/michael/CLionProjects/clox/table.h
 value.h
 /home/michael/CLionProjects/clox/value.h
 

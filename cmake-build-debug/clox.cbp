@@ -115,6 +115,12 @@
 		<Unit filename="/home/michael/CLionProjects/clox/scanner.h">
 			<Option target="clox"/>
 		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/table.c">
+			<Option target="clox"/>
+		</Unit>
+		<Unit filename="/home/michael/CLionProjects/clox/table.h">
+			<Option target="clox"/>
+		</Unit>
 		<Unit filename="/home/michael/CLionProjects/clox/value.c">
 			<Option target="clox"/>
 		</Unit>
