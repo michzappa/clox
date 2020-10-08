@@ -43,8 +43,6 @@ void freeVM() {
 }
 
 void push(Value value) {
-    freeTable(&vm.globals);
-    freeTable(&vm.strings);
     *vm.stackTop = value;
     vm.stackTop++;
 }

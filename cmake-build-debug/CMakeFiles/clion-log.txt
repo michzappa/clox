@@ -1,4 +1,4 @@
-/home/michael/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/michael/CLionProjects/clox
+/home/michael/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/michael/Projects/clox
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/michael/CLionProjects/clox/cmake-build-debug
+-- Build files have been written to: /home/michael/Projects/clox/cmake-build-debug

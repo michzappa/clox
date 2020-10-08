@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/michael/CLionProjects/clox/cmake-build-debug"/>
+				<Option working_dir="/home/michael/Projects/clox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/michael/CLionProjects/clox/cmake-build-debug"/>
+				<Option working_dir="/home/michael/Projects/clox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/michael/CLionProjects/clox/cmake-build-debug"/>
+				<Option working_dir="/home/michael/Projects/clox/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clox">
-				<Option output="/home/michael/CLionProjects/clox/cmake-build-debug/clox" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/michael/CLionProjects/clox/cmake-build-debug"/>
+				<Option output="/home/michael/Projects/clox/cmake-build-debug/clox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michael/Projects/clox/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clox"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clox"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clox/fast">
-				<Option output="/home/michael/CLionProjects/clox/cmake-build-debug/clox" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/michael/CLionProjects/clox/cmake-build-debug"/>
+				<Option output="/home/michael/Projects/clox/cmake-build-debug/clox" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michael/Projects/clox/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,71 +69,71 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clox/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michael/CLionProjects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clox/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/michael/Projects/clox/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/michael/CLionProjects/clox/chunk.c">
+		<Unit filename="/home/michael/Projects/clox/chunk.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/chunk.h">
+		<Unit filename="/home/michael/Projects/clox/chunk.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/compiler.c">
+		<Unit filename="/home/michael/Projects/clox/compiler.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/compiler.h">
+		<Unit filename="/home/michael/Projects/clox/compiler.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/debug.c">
+		<Unit filename="/home/michael/Projects/clox/debug.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/debug.h">
+		<Unit filename="/home/michael/Projects/clox/debug.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/main.c">
+		<Unit filename="/home/michael/Projects/clox/main.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/memory.c">
+		<Unit filename="/home/michael/Projects/clox/memory.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/memory.h">
+		<Unit filename="/home/michael/Projects/clox/memory.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/object.c">
+		<Unit filename="/home/michael/Projects/clox/object.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/object.h">
+		<Unit filename="/home/michael/Projects/clox/object.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/scanner.c">
+		<Unit filename="/home/michael/Projects/clox/scanner.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/scanner.h">
+		<Unit filename="/home/michael/Projects/clox/scanner.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/table.c">
+		<Unit filename="/home/michael/Projects/clox/table.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/table.h">
+		<Unit filename="/home/michael/Projects/clox/table.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/value.c">
+		<Unit filename="/home/michael/Projects/clox/value.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/value.h">
+		<Unit filename="/home/michael/Projects/clox/value.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/vm.c">
+		<Unit filename="/home/michael/Projects/clox/vm.c">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/vm.h">
+		<Unit filename="/home/michael/Projects/clox/vm.h">
 			<Option target="clox"/>
 		</Unit>
-		<Unit filename="/home/michael/CLionProjects/clox/CMakeLists.txt">
+		<Unit filename="/home/michael/Projects/clox/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
