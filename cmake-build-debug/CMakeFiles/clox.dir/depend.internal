@@ -23,6 +23,7 @@ CMakeFiles/clox.dir/debug.c.o
  /home/michael/Projects/clox/common.h
  /home/michael/Projects/clox/debug.c
  /home/michael/Projects/clox/debug.h
+ /home/michael/Projects/clox/object.h
  /home/michael/Projects/clox/value.h
 CMakeFiles/clox.dir/main.c.o
  /home/michael/Projects/clox/chunk.h

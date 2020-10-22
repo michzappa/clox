@@ -57,6 +57,8 @@ debug.h
 /home/michael/Projects/clox/debug.h
 value.h
 /home/michael/Projects/clox/value.h
+object.h
+/home/michael/Projects/clox/object.h
 
 /home/michael/Projects/clox/debug.h
 chunk.h

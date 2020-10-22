@@ -22,6 +22,7 @@ CMakeFiles/clox.dir/debug.c.o: ../chunk.h
 CMakeFiles/clox.dir/debug.c.o: ../common.h
 CMakeFiles/clox.dir/debug.c.o: ../debug.c
 CMakeFiles/clox.dir/debug.c.o: ../debug.h
+CMakeFiles/clox.dir/debug.c.o: ../object.h
 CMakeFiles/clox.dir/debug.c.o: ../value.h
 
 CMakeFiles/clox.dir/main.c.o: ../chunk.h

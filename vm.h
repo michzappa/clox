@@ -25,6 +25,7 @@ typedef struct {
     Value *stackTop; // points to where the next element will be put
     Table globals;
     Table strings;
+    ObjUpvalue* openUpvalues;
 
     Obj* objects; // linked list of all objects
 } VM;
