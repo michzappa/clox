@@ -5,13 +5,17 @@ CMakeFiles/clox.dir/chunk.c.o: ../chunk.c
 CMakeFiles/clox.dir/chunk.c.o: ../chunk.h
 CMakeFiles/clox.dir/chunk.c.o: ../common.h
 CMakeFiles/clox.dir/chunk.c.o: ../memory.h
+CMakeFiles/clox.dir/chunk.c.o: ../object.h
+CMakeFiles/clox.dir/chunk.c.o: ../table.h
 CMakeFiles/clox.dir/chunk.c.o: ../value.h
+CMakeFiles/clox.dir/chunk.c.o: ../vm.h
 
 CMakeFiles/clox.dir/compiler.c.o: ../chunk.h
 CMakeFiles/clox.dir/compiler.c.o: ../common.h
 CMakeFiles/clox.dir/compiler.c.o: ../compiler.c
 CMakeFiles/clox.dir/compiler.c.o: ../compiler.h
 CMakeFiles/clox.dir/compiler.c.o: ../debug.h
+CMakeFiles/clox.dir/compiler.c.o: ../memory.h
 CMakeFiles/clox.dir/compiler.c.o: ../object.h
 CMakeFiles/clox.dir/compiler.c.o: ../scanner.h
 CMakeFiles/clox.dir/compiler.c.o: ../table.h
@@ -36,6 +40,8 @@ CMakeFiles/clox.dir/main.c.o: ../vm.h
 
 CMakeFiles/clox.dir/memory.c.o: ../chunk.h
 CMakeFiles/clox.dir/memory.c.o: ../common.h
+CMakeFiles/clox.dir/memory.c.o: ../compiler.h
+CMakeFiles/clox.dir/memory.c.o: ../debug.h
 CMakeFiles/clox.dir/memory.c.o: ../memory.c
 CMakeFiles/clox.dir/memory.c.o: ../memory.h
 CMakeFiles/clox.dir/memory.c.o: ../object.h

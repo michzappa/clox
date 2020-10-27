@@ -6,13 +6,17 @@ CMakeFiles/clox.dir/chunk.c.o
  /home/michael/Projects/clox/chunk.h
  /home/michael/Projects/clox/common.h
  /home/michael/Projects/clox/memory.h
+ /home/michael/Projects/clox/object.h
+ /home/michael/Projects/clox/table.h
  /home/michael/Projects/clox/value.h
+ /home/michael/Projects/clox/vm.h
 CMakeFiles/clox.dir/compiler.c.o
  /home/michael/Projects/clox/chunk.h
  /home/michael/Projects/clox/common.h
  /home/michael/Projects/clox/compiler.c
  /home/michael/Projects/clox/compiler.h
  /home/michael/Projects/clox/debug.h
+ /home/michael/Projects/clox/memory.h
  /home/michael/Projects/clox/object.h
  /home/michael/Projects/clox/scanner.h
  /home/michael/Projects/clox/table.h
@@ -37,6 +41,8 @@ CMakeFiles/clox.dir/main.c.o
 CMakeFiles/clox.dir/memory.c.o
  /home/michael/Projects/clox/chunk.h
  /home/michael/Projects/clox/common.h
+ /home/michael/Projects/clox/compiler.h
+ /home/michael/Projects/clox/debug.h
  /home/michael/Projects/clox/memory.c
  /home/michael/Projects/clox/memory.h
  /home/michael/Projects/clox/object.h
