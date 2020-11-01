@@ -478,7 +478,7 @@ static void dot(bool canAssign) {
         emitBytes(OP_INVOKE, name);
         emitByte(argCount);
 
-    }else {
+    } else {
         emitBytes(OP_GET_PROPERTY, name);
     }
 }
@@ -559,10 +559,10 @@ static void method() {
     emitBytes(OP_METHOD, constant);
 }
 
-static Token syntheticToken(const char* text) {
+static Token syntheticToken(const char *text) {
     Token token;
     token.start = text;
-    token.length = (int)strlen(text);
+    token.length = (int) strlen(text);
     return token;
 }
 
@@ -612,14 +612,14 @@ static void classDeclaration() {
             error("A class can't inherit from itself.");
         }
 
+        beginScope();
+        addLocal(syntheticToken("super"));
+        defineVariable(0);
+
         namedVariable(className, false);
         emitByte(OP_INHERIT);
         classCompiler.hasSuperclass = true;
     }
-
-    beginScope();
-    addLocal(syntheticToken("super"));
-    defineVariable(0);
 
     namedVariable(className, false);
     consume(TOKEN_LEFT_BRACE, "Expect '{' before class body.");
@@ -878,8 +878,6 @@ static void namedVariable(Token name, bool canAssign) {
     }
 }
 
-
-
 static void this_(bool canAssign) {
     if (currentClass == NULL) {
         error("Can't use 'this' outside of a class.");
@@ -888,6 +886,9 @@ static void this_(bool canAssign) {
     variable(false);
 }
 
+static void variable(bool canAssign) {
+    namedVariable(parser.previous, canAssign);
+}
 
 static void unary(bool canAssign) {
     TokenType operatorType = parser.previous.type;

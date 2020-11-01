@@ -8,10 +8,11 @@
 
 #include <stdio.h>
 #include "debug.h"
-#include "compiler.h"
+
 
 #endif
 
+#include "compiler.h"
 extern VM vm;
 
 #define GC_HEAP_GROW_FACTOR 2
